@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Inventor_To_M2K.Inventor_To_M2K.StandardAddInServer">
+    <Position X="6.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAQBCBAAAFABAAhAQAABUYhACAAAAAMYgAMEgI=</HashCode>
+      <FileName>StandardAddInServer.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inventor_To_M2K.AsmBOMDialog">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAIEAAACkAUAAAAACEEAACAAIAAIgAEAAAAAAAAIA=</HashCode>
+      <FileName>AsmBOMDialog.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventor_To_M2K.PartInfoDialog">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADoAEEAJADoIUQQCoCHBFkECCMAAYAgQkBSACEQBUJ4=</HashCode>
+      <FileName>PartInfoDialog.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventor_To_M2K.helpBox">
+    <Position X="6.75" Y="8" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAQAAACAAAAAAAACAAAACAAAABAAAAACAAAAAAAA=</HashCode>
+      <FileName>helpBox.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventor_To_M2K.CheckAllDialog">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACgASAAAAACAAAACAAAAAAAAAAQQBAAAAAI=</HashCode>
+      <FileName>CheckAllDialog.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventor_To_M2K.hardInsert">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAYABAgKABMAIAAICQAQACgAAAAAgAiFAAAAEQAAI=</HashCode>
+      <FileName>hardInsert.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventor_To_M2K.PartMaterialDialog">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gRAAAAAIACAAGAICGCCAkCACAAAAUAgAiAAEAgAAAIE=</HashCode>
+      <FileName>PartMaterialDialog.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventor_To_M2K.RoutDialog">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBAIADgsAigAkAAAACyAEwhDNAEARAwAMQiABhpDIIQ=</HashCode>
+      <FileName>routDialog.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventor_To_M2K.saveForm">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYABAQCABEAAAAACACAACAAAgAAgAAAAAAAEAAAA=</HashCode>
+      <FileName>saveForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventor_To_M2K.AllInfoForm">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAIADgMAAAIAAWABkACAAAAQEAAOEAAiCABEAw=</HashCode>
+      <FileName>AllInfoForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="Inventor_To_M2K.globals" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>globals.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Inventor_To_M2K.sqlServ">
+    <Position X="4.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAACECIAAAgAAAAAAAAAIAAAAgCEAAAAAIAAAA=</HashCode>
+      <FileName>sqlServ.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Inventor_To_M2K.CreateDXF">
+    <Position X="13.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreateDXF.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

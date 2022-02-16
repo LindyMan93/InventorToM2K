@@ -1,0 +1,1170 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Inventor_To_M2K
+</name>
+</assembly>
+<members>
+<member name="T:Inventor_To_M2K.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.allInfo_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.Green_Right_Arrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.import_ipt_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.import_ipt_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.import_ipt_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.insert_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.insert_Icon_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.insert_Icon_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.newNRLicon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.NRL">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.NRL_Logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.NRL2015">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.Red_Left_Arrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.routerIcon_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.routerIcon_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.save_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.save_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.sNRL">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Inventor_To_M2K.My.Resources.Resources.sNRL1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="M:Inventor_To_M2K.AllInfoForm.Load_Form(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Form event of the Load control. This will query the data from the SQL
+ Database. It provides the information that is currently in the SQL to the user.
+ Can be used as a check or a reference.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.AllInOne_Load(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Load event of the PartInfoDialog control. Will run on load of dialog. Updates all information
+ in the form to previous save information. If these custom paramters do not exist. It will create them.
+ This is for older parts made before this add in.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.Save_Local_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Save_Button control. Saves user input to the correct customer user
+ properties in the .ipt or .iam files.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.Upload_IM_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Upload_Button control. This will save the information the user inputs,
+ then it will upload the information to the SQL server. Error checking done in sqlServ.vb
+ <see cref="T:Inventor_To_M2K.sqlServ"/>
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.Cancel_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Cancel_Button control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.h_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the h button. It will open the helpBox to show the user what each drop
+ down menu item means.
+ <see cref="T:Inventor_To_M2K.helpBox"/>
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.Manufactured_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Manufactured control. This is a group of preset values used often.
+ It will set the values of the drop down menus to a standard "Manufactured" part.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.Purchased_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Purchased control. This is a group of preset values used often.
+ It will set the values of the drop down menus to a standard "Purchased" part.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.PartNumberChange(System.Object,System.EventArgs)">
+ <summary>
+ These subs will fire when text has changed in the texts fields.
+ Used to make sure null information will not be sent to SQL
+ 
+ UPDATE -- PROGRESS BAR TO SHOW GOALS
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.ActivateIMUpload">
+ <summary>
+ Will enabled upload Item Master Button in Finalize box if all values 
+ have information. Otherwise they will still be disabled.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.AddMatButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the AddMatButton control. Will push information to SQL if correct.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.CustomButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the CustomButton control. Adding a custom material
+ to the menu if it is not in the menu now.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.AmountText_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ Handles the KeyDown event of the AmountText control. Formatting the input the user can put into
+ amount text box. will only be numeric.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.Windows.Forms.KeyEventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.Calculate_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Calculate_Button control.
+ 
+ MIGHT NOT BE USING THIS, CANNOT CHANGE FOCUS TO NEW FORM.
+ 
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.MaterialChange(System.Object,System.EventArgs)">
+ <summary>
+ Materials text change.
+ </summary>
+ <param name="sender">The sender.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.AreaChange(System.Object,System.EventArgs)">
+ <summary>
+ Area text change.
+ </summary>
+ <param name="sender">The sender.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.ActivateMatUpload">
+ <summary>
+ Activates the add button for materials bill for part.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.AddRoutButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Add_Button control. Adds user define routing to the part information
+ to the table inside the form.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.crtButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the crtButton control. This button is the "Cut", "Router", "Tap" button. 
+ It is adds predifined values to the routing to table, but still needs to be uploaded.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.ccButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the ccButton control. This button is the "Cut", "Router" 
+ (AKA Clear Cover Button) button. It is adds predifined values to the routing to table, but 
+ still needs to be uploaded.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.crbButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the crbButton control. This button is the "Cut", "Router", "Bend" button. 
+ It is adds predifined values to the routing to table, but still needs to be uploaded.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.atpButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the atpButton control. This button is a preset button that will create
+ a routing to assemble the part/assembly to the drawing specs.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.DataTableRemove(System.Object,System.EventArgs)">
+ <summary>
+ This event will be fired when the data table has had data removed from it.
+ If nothing is there the upload button will not be enabled. Else, the button is
+ disabled.
+ </summary>
+ <param name="sender">The sender.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.DataTableAdded(System.Object,System.EventArgs)">
+ <summary>
+ This sub will fire when a row is added. Runs Similar to DataTableRemoved
+ </summary>
+ <param name="sender">The sender.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.ActivateAdd">
+ <summary>
+ Activates the add button if all fields have a valid input.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.LoadMenus">
+ <summary>
+ Loads the dropdown menus.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.CustomInventorProperties">
+ <summary>
+ Creating and setting Inventor Properties and Customer Properties.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.AllInOne.M2kInfoLoad">
+ <summary>
+ Loading information from SQL (M2k), If SQL has information associated with the part,
+ then it will make it a manufactured part and it will not be able to be changed inside
+ of Inventor.
+ </summary>
+</member>
+<member name="T:Inventor_To_M2K.AsmBOMDialog">
+ <summary>
+ Assembly Bill of Materials Dialog. Windows form that gathers all the parts used
+ in an assembly .iam file. Does not save any of the information to the .iam file, but
+ will push the information to <see cref="T:Inventor_To_M2K.sqlServ"/> to be pushed into the SQL
+ database.
+ </summary>
+ <seealso cref="T:System.Windows.Forms.Form" />
+</member>
+<member name="M:Inventor_To_M2K.AsmBOMDialog.Upload_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Upload_Button control. This will run through each row of the bill of
+ materials table. If the "Included" checkbox is selected. It will push the required information
+ to <see cref="T:Inventor_To_M2K.sqlServ"/> and into the SQL database. Error checkin is done in sqlServ.vb
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AsmBOMDialog.Cancel_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Cancel_Button control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.AsmBOMDialog.AsmBOMDialog_Load(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Load event of the AsmBOMDialog control. Gathers all the parts used in the assembly
+ and their quantites. Then it will add them to a table where the user can select and or add 
+ custom parts.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="T:Inventor_To_M2K.CheckAllDialog">
+ <summary>
+ Form to check to see if all information for every part in assembly has been
+ uploaded. 
+ </summary>
+ <seealso cref="T:System.Windows.Forms.Form" />
+</member>
+<member name="M:Inventor_To_M2K.CheckAllDialog.CheckAllDialog_Load(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Load event of the CheckAllDialog control. Will load all parts like the 
+ bill of material. But it will check each part to see if the boolean flags for pmPushed
+ bomPushed and routPushed have been flipped to true. If not all of them have been added,
+ it will add it to the list. If the part does not have any "Inventor User Defined Properties"
+ then it wont look at the information.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="T:Inventor_To_M2K.CloseConveyorForm">
+ <summary>
+ This Class/Form will run nearly all parts of the Add-In to close out a total conveyor.
+ It is currently still being worked on as of 6/16/2017. All Buttons and interface options
+ are available. Just not shown in the UI.
+ </summary>
+ <seealso cref="T:System.Windows.Forms.Form" />
+</member>
+<member name="M:Inventor_To_M2K.CloseConveyorForm.OK_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the OK_Button control. Will get all the selected parts and run the
+ CloseConveyor Sub in CloseConveyorMod.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="T:Inventor_To_M2K.CloseConveyorMod">
+ <summary>
+ Runs Import Part, Import BOM, and Import Rout for a part that has been selected.
+ Has some error checking, but I'm not sure I want to use this. It is currently not
+ being used in the software. (6/16/2017)
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.CloseConveyorMod.CloseConveyor(System.String)">
+ <summary>
+ Runs through each form to make sure the user has entered the information regarding
+ the custom part.
+ </summary>
+ <param name="fullPartName">Full name of the part.</param>
+</member>
+<member name="T:Inventor_To_M2K.CreateDXF">
+ <summary>
+ This stores the CreateDXF sub.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.CreateDXF.CreateDXFFile(System.String)">
+ <summary>
+ Found in the Part Tools Ribbon Panel of Parts. It will open the template .dxf of "zBlank.dwg"
+ From here it will as if the part in question is a sheet metal part. If yes, it will create a view
+ with the flat pattern of the part. If not, it will create a view with the front enabled.
+ </summary>
+ <param name="docName">Name of the document.</param>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.ERPpane_Load">
+ <summary>
+ Loading of the ERP (PLM) interface. Reads all relevant data from local Inventor file and SQL Database.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.ItemMasterExist(System.String)">
+ <summary>
+ Checking SQL database if there is part information associated with opened inventor part.
+ </summary>
+ <param name="PartNumber">The part number.</param>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.ActivateIMUpload">
+ <summary>
+ Will enabled upload Item Master Button in Finalize box if all values 
+ have information. Otherwise they will still be disabled. Uses the 
+ "Change in text Fields" methods to do this.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.SaveLocal">
+ <summary>
+ Saves whats in the IM texts fields to the local Inventor custom variables.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.Save_Local_Button_Click">
+ <summary>
+ Calls the SaveLocal method, handles interface button click.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.Upload_IM_Button">
+ <summary>
+ Uploads the inventor data to SQL by using the Inserts in sqlServ.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.Manufactured_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Manufactured control. This is a group of preset values used often.
+ It will set the values of the drop down menus to a standard "Manufactured" part.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.Purchased_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Purchased control. This is a group of preset values used often.
+ It will set the values of the drop down menus to a standard "Purchased" part.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.InventorPropertyCheck">
+ <summary>
+ Checking the size of custom inventor variables
+ .Step files typically are imported with 2 custom 
+ variables. So, this will add the necessary ones if
+ they do not exist.
+ Creating new properties and assigning them to these variables.
+ if they do not exist already.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.DocumentTypeCheckLoad">
+ <summary>
+ Checking what type of inventor document is open (Part or Assembly).
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.DisplayProperties">
+ <summary>
+ Displays the inventor standard and interface defined variable in the text fields.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.RefreshM2KInfo">
+ <summary>
+ Refreshes (reloads) bill and routing information.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.BOMInsert">
+ <summary>
+ Inserts each element of the Inventor BOM that has been selected by the user.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.BOMRemove">
+ <summary>
+ Removes each item selected by the user in the M2k BOM table.
+ The sqlServ module will really on make the value associated with
+ the component part equal to 0.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.AddMaterial">
+ <summary>
+ Adds the material number selected by the user to SQL table.
+ 
+ UPDATE: Allow users to add multiple materials for Part doc.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.RemoveMaterial">
+ <summary>
+ Removes material from SQL bom table. Similar to RemoveBOM, this process
+ really only makes the value of the component part equal to 0.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.CustomMaterialAdd">
+ <summary>
+ Adds a custom material to the list of materials that can be chosen.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.AddRoutButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Add_Button control. Adds user define routing to the part information
+ to the table inside the form.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.RemoveRoutButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the RemoveRoutButton control. It really does not remove a 
+ routing from the table, instead it will change the labor hours to 0, so M2k can 
+ remove it after. 
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.CutPreset">
+ <summary>
+ Sets textboxes to standard process used alot (CNC Cut).
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.RoundPreset">
+ <summary>
+ Sets textboxes to standard process used alot (Table round).
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.TapPreset">
+ <summary>
+ Sets textboxes to standard process used alot (Tap).
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.AssemblePreset">
+ <summary>
+ Sets textboxes to standard process used alot (Assemble).
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.DataTableRemove(System.Object,System.EventArgs)">
+ <summary>
+ This event will be fired when the data table has had data removed from it.
+ If nothing is there the upload button will not be enabled. Else, the button is
+ disabled.
+ </summary>
+ <param name="sender">The sender.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.DataTableAdded(System.Object,System.EventArgs)">
+ <summary>
+ This sub will fire when a row is added. Runs Similar to DataTableRemoved
+ </summary>
+ <param name="sender">The sender.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.ActivateAdd">
+ <summary>
+ Activates the add button in Routings if all fields have a valid input.
+ Uses "Text Changes in Rout" methods.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.LoadInfoFromSQL">
+ <summary>
+ Loads the information from SQL.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.LoadMenus">
+ <summary>
+ Loads the menu options from SQL (Drop down lists).
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.M2kInfoLoad">
+ <summary>
+ Loading information using sqlServ queries. This only populates the grid
+ areas (BOM and ROUT).
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.ERPpane.CloseButtonClick">
+ <summary>
+ Closes the interface.
+ </summary>
+</member>
+<member name="T:Inventor_To_M2K.GetAllInfoForm">
+ <summary>
+ For Developer only...
+ 
+ It will get all data currently stored in the SQL database if the password has been entered correctly.
+ </summary>
+ <seealso cref="T:System.Windows.Forms.Form" />
+</member>
+<member name="M:Inventor_To_M2K.GetAllInfoForm.updateB_Click(System.Object,System.EventArgs)">
+ <summary>
+ Prompts user for password, if correct will update the tables with the current information.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="T:Inventor_To_M2K.hardInsert">
+ <summary>
+ This Dialog will show when called by the assembly ribbon.
+ It will allow the user to insert hardware multiple times with
+ only a few button clicks
+ </summary>
+ <seealso cref="T:System.Windows.Forms.Form" />
+</member>
+<member name="M:Inventor_To_M2K.hardInsert.Select_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Select_Button control. This starts the interaction of choosing holes
+ to insert the hardware into.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.hardInsert.SelectHW_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the SelectHW_Button control. Allows the user to select the desired
+ edge of the piece of hardware that they want copied and inserted.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.hardInsert.OK_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the OK_Button control. Finalizes the executiong of insert constraints desired.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.hardInsert.oSelectEvents_OnSelect(Inventor.ObjectsEnumerator,Inventor.SelectionDeviceEnum,Inventor.Point,Inventor.Point2d,Inventor.View)">
+ <summary>
+ When the user selectes a circular edge it will be added to the collection and the count will increment.
+ </summary>
+ <param name="JustSelectedEntities">The just selected entities.</param>
+ <param name="SelectionDevice">The selection device.</param>
+ <param name="ModelPosition">The model position.</param>
+ <param name="ViewPosition">The view position.</param>
+ <param name="View">The view.</param>
+</member>
+<member name="M:Inventor_To_M2K.hardInsert.Load_hardInsert(System.Object,System.EventArgs)">
+ <summary>
+ Handles the hardInsert event of the Load control. Creates selection events to allow user to pick circular edges.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="T:Inventor_To_M2K.PartMaterialDialog">
+ <summary>
+ Similar to the AsmBOMDialog, This form allows the user to calculate the square inches of a part
+ to be cut on the CNC router. You can pick a material and its square inches and push it to the 
+ SQL database.
+ </summary>
+ <seealso cref="T:System.Windows.Forms.Form" />
+</member>
+<member name="M:Inventor_To_M2K.PartMaterialDialog.Upload_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Upload_Button control. This pushes the information to the 
+ SQL database.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.PartMaterialDialog.Calculate_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Calculate_Button control. Calculates the area of a the cut surface that the user
+ chooses.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.PartMaterialDialog.Cancel_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Cancel_Button control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.PartMaterialDialog.PartMaterialDialog_Load(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Load event of the PartMaterialDialog control. Loads the part number into the form.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.PartMaterialDialog.PartNumberChange(System.Object,System.EventArgs)">
+ <summary>
+ Events will be fired if the values are changed. Checks for Null values (Empty Strings)
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="T:Inventor_To_M2K.RoutDialog">
+ <summary>
+ Opens a windows form to allow the user to enter routing information on the part or assembly.
+ This form has presets for the user to choose. None of the data that is created in this form
+ will be stored in the actual .ipt or .iam file. After the data has been created it must be 
+ uploaded to be saved. 
+ </summary>
+ <seealso cref="T:System.Windows.Forms.Form" />
+</member>
+<member name="M:Inventor_To_M2K.RoutDialog.Add_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Add_Button control. Adds user define routing to the part information
+ to the table inside the form.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.RoutDialog.Cancel_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Cancel_Button control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.RoutDialog.Upload_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Upload_Button control. This will push the user defined routing information
+ to the SQL database in the loop. Error checking is done in the sqlServ.vb
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.RoutDialog.crtButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the crtButton control. This button is the "Cut", "Router", "Tap" button. 
+ It is adds predifined values to the routing to table, but still needs to be uploaded.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.RoutDialog.ccButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the ccButton control. This button is the "Cut", "Router" 
+ (AKA Clear Cover Button) button. It is adds predifined values to the routing to table, but 
+ still needs to be uploaded.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.RoutDialog.crbButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the crbButton control. This button is the "Cut", "Router", "Bend" button. 
+ It is adds predifined values to the routing to table, but still needs to be uploaded.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.RoutDialog.atpButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the atpButton control. This button is a preset button that will create
+ a routing to assemble the part/assembly to the drawing specs.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.RoutDialog.routDialog_Load(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Load event of the routDialog control. Loades the part number of active document.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.RoutDialog.UpdateButton_Click">
+ <summary>
+ Sends part number to sqlServ module to query SQL for information associated with this part.
+ It will then add this information to the table to show the user.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.RoutDialog.PartNumberChange(System.Object,System.EventArgs)">
+ <summary>
+ These subs will fire when text has changed in the field associated with it.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Inventor_To_M2K.RoutDialog.ActivateAdd">
+ <summary>
+ Activates the add button if all fields have a valid input.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.RoutDialog.DataTableRemove(System.Object,System.EventArgs)">
+ <summary>
+ This event will be fired when the data table has had data removed from it.
+ If nothing is there the upload button will not be enabled. Else, the button is
+ disabled.
+ </summary>
+ <param name="sender">The sender.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.RoutDialog.DataTableAdded(System.Object,System.EventArgs)">
+ <summary>
+ This sub will fire when a row is added. Runs Similar to DataTableRemoved
+ </summary>
+ <param name="sender">The sender.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="T:Inventor_To_M2K.helpBox">
+ <summary>
+ Simple text box with company logo. It displays information about what the drop
+ down menus collection means.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.helpBox.helpBox_Load(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Load event of the helpBox control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.helpBox.OKButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the OKButton control. Closes form.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="T:Inventor_To_M2K.globals">
+ <summary>
+ Public variable which will be set as the active inventor application
+ when the Add In is loaded <see cref="T:Inventor_To_M2K.Inventor_To_M2K.StandardAddInServer"/>
+ </summary>
+</member>
+<member name="T:Inventor_To_M2K.PartInfoDialog">
+ <summary>
+ Part Master Information form. Allows user to update part information during 
+ creation of the part.
+ </summary>
+ <seealso cref="T:System.Windows.Forms.Form" />
+</member>
+<member name="M:Inventor_To_M2K.PartInfoDialog.Save_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Save_Button control. Saves user input to the correct customer user
+ properties in the .ipt or .iam files.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.PartInfoDialog.Upload_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Upload_Button control. This will save the information the user inputs,
+ then it will upload the information to the SQL server. Error checking done in sqlServ.vb
+ <see cref="T:Inventor_To_M2K.sqlServ"/>
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.PartInfoDialog.Cancel_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Cancel_Button control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.PartInfoDialog.h_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the h button. It will open the helpBox to show the user what each drop
+ down menu item means.
+ <see cref="T:Inventor_To_M2K.helpBox"/>
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.PartInfoDialog.PartInfoDialog_Load(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Load event of the PartInfoDialog control. Will run on load of dialog. Updates all information
+ in the form to previous save information. If these custom paramters do not exist. It will create them.
+ This is for older parts made before this add in.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.PartInfoDialog.Manufactured_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Manufactured control. This is a group of preset values used often.
+ It will set the values of the drop down menus to a standard "Manufactured" part.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.PartInfoDialog.Purchased_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Purchased control. This is a group of preset values used often.
+ It will set the values of the drop down menus to a standard "Purchased" part.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.PartInfoDialog.NullValues">
+ <summary>
+ Antiquated Funciton. Used to check for null values. Now, upload button will not be enabled until all values have
+ information. 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Inventor_To_M2K.PartInfoDialog.PartNumberChange(System.Object,System.EventArgs)">
+ <summary>
+ These subs will fire when text has changed in the texts fields.
+ Used to make sure null information will not be sent to SQL
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Inventor_To_M2K.PartInfoDialog.ActivateUpload">
+ <summary>
+ Will enabled upload button if all values have information. Otherwise they will still be disabled.
+ </summary>
+</member>
+<member name="T:Inventor_To_M2K.saveForm">
+ <summary>
+ Simple windows form that prompts the user to select file formats to save 
+ a copy of the current active document. Also allows user to select a location.
+ </summary>
+ <seealso cref="T:System.Windows.Forms.Form" />
+</member>
+<member name="M:Inventor_To_M2K.saveForm.OK_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the OK_Button control. Opens a folder selection dialog.
+ Then it will check which boxes were check and will save a copy of the file, in chosen
+ format(s) to selected folder.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:Inventor_To_M2K.saveForm.Cancel_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Cancel_Button control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="T:Inventor_To_M2K.sqlServ">
+ <summary>
+ All SQL information and methods are within this Module.
+ Centralizes all methods that use the SQL database. 
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.sqlServ.InsertPM(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ The values passed to this will but put into a SQL Insert statement. Tries to insert part.
+ If the database shoots back a "Primary Key Violation" (Number 2627), then it will prompt the user
+ yes or no on whether they want to update this information. If yes, it will delete the record from 
+ the database and insert the updated information recursively.
+ </summary>
+ <param name="prtNum">The part number.</param>
+ <param name="sDesc">The short description.</param>
+ <param name="invType">Inventory type.</param>
+ <param name="lDesc">The long description (Extended).</param>
+ <param name="unOfMeas">The unit of measure.</param>
+ <param name="engStat">The engineering status.</param>
+ <param name="salesC">The sales code.</param>
+ <param name="lTime">The lead time code.</param>
+ <param name="engr">The engineer/designer.</param>
+ <param name="mfgName">Name of the manufacturer.</param>
+ <param name="mfgNum">The manufacturer number.</param>
+</member>
+<member name="M:Inventor_To_M2K.sqlServ.InsertBOM(System.String,System.String,System.String)">
+ <summary>
+ The values passed into this will be put into a SQL insert statement and added to the SQL
+ database.
+ </summary>
+ <param name="prtNumP">The parent part number.</param>
+ <param name="prtNumC">The child part number.</param>
+ <param name="prtCqty">The child part quantity.</param>
+</member>
+<member name="M:Inventor_To_M2K.sqlServ.RemoveMaterial(System.String)">
+ <summary>
+ Doesnt really remove the material. It actually puts in a 
+ zero value for comp part in parent part the material.
+ </summary>
+ <param name="prtNumP">The PRT number p.</param>
+</member>
+<member name="M:Inventor_To_M2K.sqlServ.InsertRout(System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ The values passed in will be sent to the SQL database via a SQL insert statement.
+ </summary>
+ <param name="prtNum">The PRT number.</param>
+ <param name="seqNum">The seq number.</param>
+ <param name="wcNum">The wc number.</param>
+ <param name="laborTime">The labor time.</param>
+ <param name="rDesc">The r desc.</param>
+ <param name="crewS">The crew s.</param>
+</member>
+<member name="M:Inventor_To_M2K.sqlServ.InsertIM(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Inserts the IM Data into Table IM3 of Inventor To M2k Database.
+ 
+ UPDATE: changing SQL commands to stop SQL injection and 
+ hopefully handling " and ' within text.
+ </summary>
+ <param name="PartNumber">The part number.</param>
+ <param name="Description">The description.</param>
+ <param name="InventoryType">Type of the inventory.</param>
+ <param name="Um">The um.</param>
+ <param name="EngineeringStatus">The engineering status.</param>
+ <param name="SalesCode">The sales code.</param>
+ <param name="LeadTimeCode">The lead time code.</param>
+ <param name="EngrResp">The engr resp.</param>
+</member>
+<member name="M:Inventor_To_M2K.sqlServ.InsertExtDesc(System.String,System.Collections.Generic.List{System.String})">
+ <summary>
+ Inserts the ext desc.
+ 
+ 
+ </summary>
+ <param name="PartNumber">The part number.</param>
+ <param name="ExtDesc">The ext desc.</param>
+</member>
+<member name="M:Inventor_To_M2K.sqlServ.IMQuery2(System.String,System.String)">
+ <summary>
+ Selects and returns the information requested by field and part number.
+ </summary>
+ <param name="partNbr">The part NBR.</param>
+ <param name="field">The field.</param>
+ <returns></returns>
+</member>
+<member name="M:Inventor_To_M2K.sqlServ.InsertBOM2(System.String,System.String,System.String)">
+ <summary>
+ The values passed into this will be put into a SQL insert statement and added to the SQL
+ database.
+ </summary>
+ <param name="prtNumP">The parent part number.</param>
+ <param name="prtNumC">The child part number.</param>
+ <param name="prtCqty">The child part quantity.</param>
+</member>
+<member name="M:Inventor_To_M2K.sqlServ.RemoveSelectedBill(System.String,System.String)">
+ <summary>
+ Removes the selected bill from BOM2, by changing the component part qty to 0.
+ </summary>
+ <param name="prtNumP">The PRT number p.</param>
+ <param name="prtNumC">The PRT number c.</param>
+</member>
+<member name="M:Inventor_To_M2K.sqlServ.BOMQuery2(System.String)">
+ <summary>
+ Returns a table of all the parts within a bill of materials in the SQL database.
+ (BOM2 table)
+ </summary>
+ <param name="partNbr">The part NBR.</param>
+ <returns></returns>
+</member>
+<member name="M:Inventor_To_M2K.sqlServ.InsertRout2(System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ The values passed in will be sent to the SQL database via a SQL insert statement.
+ </summary>
+ <param name="prtNum">The PRT number.</param>
+ <param name="seqNum">The seq number.</param>
+ <param name="wcNum">The wc number.</param>
+ <param name="laborTime">The labor time.</param>
+ <param name="rDesc">The r desc.</param>
+ <param name="crewS">The crew s.</param>
+</member>
+<member name="M:Inventor_To_M2K.sqlServ.CollectData(System.String)">
+ <summary>
+ Queries SQL for desired information. 
+ </summary>
+ <param name="table"></param>
+ <returns></returns>
+</member>
+<member name="M:Inventor_To_M2K.Inventor_To_M2K.StandardAddInServer.Activate(Inventor.ApplicationAddInSite,System.Boolean)">
+ <summary>
+ Activates the specified add in site object. When the Add-In is activated this will run. 
+ This is where all new ribbon tabs, ribbon panels, and buttons will be added. This method is 
+ called by Inventor when it loads the AddIn.The AddInSiteObject provides access to the Inventor 
+ Application object.The FirstTime flag indicates if the AddIn is loaded for the first time.
+ 
+ Taken from Inventor Add-In Tutorial and then modified.
+ </summary>
+ <param name="addInSiteObject">The add in site object.</param>
+ <param name="firstTime">if set to <c>true</c> [first time].</param>
+</member>
+<member name="M:Inventor_To_M2K.Inventor_To_M2K.StandardAddInServer.impPInfo_Button_OnExecute(Inventor.NameValueMap)">
+ <summary>
+ Handles the Part Information Buttons for both Ribbons. Opens the PartInfoDialog.
+ <see cref="T:Inventor_To_M2K.PartInfoDialog"/>
+ </summary>
+ <param name="Context">The context.</param>
+</member>
+<member name="M:Inventor_To_M2K.Inventor_To_M2K.StandardAddInServer.saveDWG_Button_OnExecute(Inventor.NameValueMap)">
+ <summary>
+ Saves the DWG button on execute. Opens the saveForm to allow the user to SaveFileAs.
+ <see cref="T:Inventor_To_M2K.saveForm"/>
+ </summary>
+ <param name="Context">The context.</param>
+</member>
+<member name="M:Inventor_To_M2K.Inventor_To_M2K.StandardAddInServer.hardInsert_Button_OnExecute(Inventor.NameValueMap)">
+ <summary>
+ Handles the hardInsert_Button. When it runs it will open the hardInsert form.
+ </summary>
+ <param name="Context">The context.</param>
+</member>
+<member name="M:Inventor_To_M2K.Inventor_To_M2K.StandardAddInServer.nate_Button_OnExecute(Inventor.NameValueMap)">
+ <summary>
+ Opens a form to show all SQL information.
+ 
+ DISCONTINUED
+ 
+ THIS PROCESS IS NO LONGER USED.
+ 
+ </summary>
+ <param name="Context">The context.</param>
+</member>
+<member name="M:Inventor_To_M2K.Inventor_To_M2K.StandardAddInServer.allInfo_Button_OnExecute(Inventor.NameValueMap)">
+ <summary>
+ Opens a form that will display all the current part information.
+ </summary>
+ <param name="Context">The context.</param>
+</member>
+<member name="M:Inventor_To_M2K.Inventor_To_M2K.StandardAddInServer.createDXF_Button_OnExecute(Inventor.NameValueMap)">
+ <summary>
+ Runs <see cref="M:Inventor_To_M2K.CreateDXF.CreateDXFFile(System.String)"/>. 
+ Will create DXF file for user to send to CNC router.
+ </summary>
+ <param name="Context">The context.</param>
+</member>
+<member name="M:Inventor_To_M2K.Inventor_To_M2K.StandardAddInServer.Deactivate">
+ <summary>
+ This method is called by Inventor when the AddIn is unloaded.
+ The AddIn will be unloaded either manually by the user or
+ when the Inventor session is terminated.
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.Inventor_To_M2K.StandardAddInServer.funButtons">
+ <summary>
+ Called on a certain day. This form opens something fun as an easter egg.
+ <see cref="T:Inventor_To_M2K.bDayForm"/>
+ </summary>
+</member>
+<member name="M:Inventor_To_M2K.Inventor_To_M2K.StandardAddInServer.Register(System.Type)">
+ <summary>
+ Registers this class as an AddIn for Inventor. This function is called when the assembly 
+ is registered for COM.
+ </summary>
+ <param name="t">The t.</param>
+</member>
+<member name="T:Inventor_To_M2K.Inventor_To_M2K.AxHostConverter">
+ <summary>
+ Image converter used for AutoDesk Inventor.
+ </summary>
+</member>
+</members>
+</doc>

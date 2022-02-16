@@ -1,0 +1,1228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonLayoutPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="upload_Button.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="upload_Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="upload_Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="upload_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="upload_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="upload_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 25</value>
+  </data>
+  <data name="upload_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="upload_Button.Text" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="&gt;&gt;upload_Button.Name" xml:space="preserve">
+    <value>upload_Button</value>
+  </data>
+  <data name="&gt;&gt;upload_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;upload_Button.Parent" xml:space="preserve">
+    <value>buttonLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;upload_Button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Cancel_Button.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Cancel_Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Cancel_Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Cancel_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 3</value>
+  </data>
+  <data name="Cancel_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 25</value>
+  </data>
+  <data name="Cancel_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Cancel_Button.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Name" xml:space="preserve">
+    <value>Cancel_Button</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Parent" xml:space="preserve">
+    <value>buttonLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Save_Button.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Save_Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Save_Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Save_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 3</value>
+  </data>
+  <data name="Save_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 25</value>
+  </data>
+  <data name="Save_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Save_Button.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;Save_Button.Name" xml:space="preserve">
+    <value>Save_Button</value>
+  </data>
+  <data name="&gt;&gt;Save_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Save_Button.Parent" xml:space="preserve">
+    <value>buttonLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;Save_Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 563</value>
+  </data>
+  <data name="buttonLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 31</value>
+  </data>
+  <data name="buttonLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonLayoutPanel.Name" xml:space="preserve">
+    <value>buttonLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;buttonLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonLayoutPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonLayoutPanel.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="buttonLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="upload_Button" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Cancel_Button" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="Save_Button" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,52.42719,Percent,47.57281,Absolute,111" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="ePrtNumLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ePrtNumLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 14.25pt, style=Bold</value>
+  </data>
+  <data name="ePrtNumLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 12</value>
+  </data>
+  <data name="ePrtNumLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 27</value>
+  </data>
+  <data name="ePrtNumLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ePrtNumLabel.Text" xml:space="preserve">
+    <value>Part Number</value>
+  </data>
+  <data name="&gt;&gt;ePrtNumLabel.Name" xml:space="preserve">
+    <value>ePrtNumLabel</value>
+  </data>
+  <data name="&gt;&gt;ePrtNumLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ePrtNumLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ePrtNumLabel.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="partNumberText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 14.25pt, style=Bold</value>
+  </data>
+  <data name="partNumberText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 42</value>
+  </data>
+  <data name="partNumberText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="partNumberText.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="partNumberText.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;partNumberText.Name" xml:space="preserve">
+    <value>partNumberText</value>
+  </data>
+  <data name="&gt;&gt;partNumberText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;partNumberText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;partNumberText.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="UoMLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UoMLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="UoMLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 114</value>
+  </data>
+  <data name="UoMLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 21</value>
+  </data>
+  <data name="UoMLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="UoMLabel.Text" xml:space="preserve">
+    <value>Unit Of Measure</value>
+  </data>
+  <data name="&gt;&gt;UoMLabel.Name" xml:space="preserve">
+    <value>UoMLabel</value>
+  </data>
+  <data name="&gt;&gt;UoMLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UoMLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UoMLabel.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="sDescriptionText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="sDescriptionText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>AlphaFull</value>
+  </data>
+  <data name="sDescriptionText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 82</value>
+  </data>
+  <data name="sDescriptionText.MaxLength" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="sDescriptionText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 26</value>
+  </data>
+  <data name="sDescriptionText.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;sDescriptionText.Name" xml:space="preserve">
+    <value>sDescriptionText</value>
+  </data>
+  <data name="&gt;&gt;sDescriptionText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sDescriptionText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sDescriptionText.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="sDescriptionLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sDescriptionLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="sDescriptionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 85</value>
+  </data>
+  <data name="sDescriptionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <data name="sDescriptionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="sDescriptionLabel.Text" xml:space="preserve">
+    <value>Item Description</value>
+  </data>
+  <data name="&gt;&gt;sDescriptionLabel.Name" xml:space="preserve">
+    <value>sDescriptionLabel</value>
+  </data>
+  <data name="&gt;&gt;sDescriptionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sDescriptionLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sDescriptionLabel.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="invTypeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="invTypeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="invTypeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 262</value>
+  </data>
+  <data name="invTypeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 21</value>
+  </data>
+  <data name="invTypeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="invTypeLabel.Text" xml:space="preserve">
+    <value>Inventory Type</value>
+  </data>
+  <data name="&gt;&gt;invTypeLabel.Name" xml:space="preserve">
+    <value>invTypeLabel</value>
+  </data>
+  <data name="&gt;&gt;invTypeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;invTypeLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;invTypeLabel.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="engrStatusLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="engrStatusLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="engrStatusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 297</value>
+  </data>
+  <data name="engrStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="engrStatusLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="engrStatusLabel.Text" xml:space="preserve">
+    <value>Engr Status</value>
+  </data>
+  <data name="&gt;&gt;engrStatusLabel.Name" xml:space="preserve">
+    <value>engrStatusLabel</value>
+  </data>
+  <data name="&gt;&gt;engrStatusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;engrStatusLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;engrStatusLabel.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="saleCodeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="saleCodeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="saleCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 332</value>
+  </data>
+  <data name="saleCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 21</value>
+  </data>
+  <data name="saleCodeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="saleCodeLabel.Text" xml:space="preserve">
+    <value>Sales Code</value>
+  </data>
+  <data name="&gt;&gt;saleCodeLabel.Name" xml:space="preserve">
+    <value>saleCodeLabel</value>
+  </data>
+  <data name="&gt;&gt;saleCodeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saleCodeLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;saleCodeLabel.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="descriptionText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="descriptionText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 167</value>
+  </data>
+  <data name="descriptionText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="descriptionText.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="descriptionText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 86</value>
+  </data>
+  <data name="descriptionText.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;descriptionText.Name" xml:space="preserve">
+    <value>descriptionText</value>
+  </data>
+  <data name="&gt;&gt;descriptionText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;descriptionText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;descriptionText.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="eDescripLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="eDescripLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="eDescripLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 143</value>
+  </data>
+  <data name="eDescripLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 21</value>
+  </data>
+  <data name="eDescripLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="eDescripLabel.Text" xml:space="preserve">
+    <value>Extended Description</value>
+  </data>
+  <data name="&gt;&gt;eDescripLabel.Name" xml:space="preserve">
+    <value>eDescripLabel</value>
+  </data>
+  <data name="&gt;&gt;eDescripLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;eDescripLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;eDescripLabel.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="leadTimeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="leadTimeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="leadTimeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 367</value>
+  </data>
+  <data name="leadTimeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 21</value>
+  </data>
+  <data name="leadTimeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="leadTimeLabel.Text" xml:space="preserve">
+    <value>Lead Time Code</value>
+  </data>
+  <data name="&gt;&gt;leadTimeLabel.Name" xml:space="preserve">
+    <value>leadTimeLabel</value>
+  </data>
+  <data name="&gt;&gt;leadTimeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;leadTimeLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;leadTimeLabel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="engrLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="engrLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="engrLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 464</value>
+  </data>
+  <data name="engrLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 21</value>
+  </data>
+  <data name="engrLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="engrLabel.Text" xml:space="preserve">
+    <value>Engineer</value>
+  </data>
+  <data name="&gt;&gt;engrLabel.Name" xml:space="preserve">
+    <value>engrLabel</value>
+  </data>
+  <data name="&gt;&gt;engrLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;engrLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;engrLabel.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="mfgNameText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="mfgNameText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 496</value>
+  </data>
+  <data name="mfgNameText.MaxLength" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="mfgNameText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 26</value>
+  </data>
+  <data name="mfgNameText.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;mfgNameText.Name" xml:space="preserve">
+    <value>mfgNameText</value>
+  </data>
+  <data name="&gt;&gt;mfgNameText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mfgNameText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mfgNameText.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="mfgNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mfgNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="mfgNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 499</value>
+  </data>
+  <data name="mfgNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 21</value>
+  </data>
+  <data name="mfgNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="mfgNameLabel.Text" xml:space="preserve">
+    <value>Mfg. Name</value>
+  </data>
+  <data name="&gt;&gt;mfgNameLabel.Name" xml:space="preserve">
+    <value>mfgNameLabel</value>
+  </data>
+  <data name="&gt;&gt;mfgNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mfgNameLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mfgNameLabel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="uomSelect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="uomSelect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="uomSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 111</value>
+  </data>
+  <data name="uomSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 29</value>
+  </data>
+  <data name="uomSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;uomSelect.Name" xml:space="preserve">
+    <value>uomSelect</value>
+  </data>
+  <data name="&gt;&gt;uomSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uomSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;uomSelect.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="invTypeSelect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="invTypeSelect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="invTypeSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 259</value>
+  </data>
+  <data name="invTypeSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 29</value>
+  </data>
+  <data name="invTypeSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;invTypeSelect.Name" xml:space="preserve">
+    <value>invTypeSelect</value>
+  </data>
+  <data name="&gt;&gt;invTypeSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;invTypeSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;invTypeSelect.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="engStatusSelect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="engStatusSelect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="engStatusSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 294</value>
+  </data>
+  <data name="engStatusSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 29</value>
+  </data>
+  <data name="engStatusSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;engStatusSelect.Name" xml:space="preserve">
+    <value>engStatusSelect</value>
+  </data>
+  <data name="&gt;&gt;engStatusSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;engStatusSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;engStatusSelect.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="salesCodeSelect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="salesCodeSelect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="salesCodeSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 329</value>
+  </data>
+  <data name="salesCodeSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 29</value>
+  </data>
+  <data name="salesCodeSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;salesCodeSelect.Name" xml:space="preserve">
+    <value>salesCodeSelect</value>
+  </data>
+  <data name="&gt;&gt;salesCodeSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;salesCodeSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;salesCodeSelect.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="leadTimeSelect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="leadTimeSelect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="leadTimeSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 364</value>
+  </data>
+  <data name="leadTimeSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 29</value>
+  </data>
+  <data name="leadTimeSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;leadTimeSelect.Name" xml:space="preserve">
+    <value>leadTimeSelect</value>
+  </data>
+  <data name="&gt;&gt;leadTimeSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;leadTimeSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;leadTimeSelect.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="hButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="hButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="hButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 572</value>
+  </data>
+  <data name="hButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="hButton.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="hButton.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="&gt;&gt;hButton.Name" xml:space="preserve">
+    <value>hButton</value>
+  </data>
+  <data name="&gt;&gt;hButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;hButton.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="impLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="impLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="impLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="impLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;impLogo.Name" xml:space="preserve">
+    <value>impLogo</value>
+  </data>
+  <data name="&gt;&gt;impLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;impLogo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;impLogo.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="manufacturedStandard.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="manufacturedStandard.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="manufacturedStandard.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="manufacturedStandard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 14</value>
+  </data>
+  <data name="manufacturedStandard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 22</value>
+  </data>
+  <data name="manufacturedStandard.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="manufacturedStandard.Text" xml:space="preserve">
+    <value>Manufactured</value>
+  </data>
+  <data name="&gt;&gt;manufacturedStandard.Name" xml:space="preserve">
+    <value>manufacturedStandard</value>
+  </data>
+  <data name="&gt;&gt;manufacturedStandard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;manufacturedStandard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;manufacturedStandard.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="purchasedStandard.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="purchasedStandard.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="purchasedStandard.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="purchasedStandard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 54</value>
+  </data>
+  <data name="purchasedStandard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 22</value>
+  </data>
+  <data name="purchasedStandard.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="purchasedStandard.Text" xml:space="preserve">
+    <value>Purchased</value>
+  </data>
+  <data name="&gt;&gt;purchasedStandard.Name" xml:space="preserve">
+    <value>purchasedStandard</value>
+  </data>
+  <data name="&gt;&gt;purchasedStandard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;purchasedStandard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;purchasedStandard.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="mfgPrtNumText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="mfgPrtNumText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 528</value>
+  </data>
+  <data name="mfgPrtNumText.MaxLength" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="mfgPrtNumText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 26</value>
+  </data>
+  <data name="mfgPrtNumText.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;mfgPrtNumText.Name" xml:space="preserve">
+    <value>mfgPrtNumText</value>
+  </data>
+  <data name="&gt;&gt;mfgPrtNumText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mfgPrtNumText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mfgPrtNumText.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mfgPartNumLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mfgPartNumLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="mfgPartNumLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mfgPartNumLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 531</value>
+  </data>
+  <data name="mfgPartNumLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 21</value>
+  </data>
+  <data name="mfgPartNumLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="mfgPartNumLabel.Text" xml:space="preserve">
+    <value>Mfg. Part Number</value>
+  </data>
+  <data name="&gt;&gt;mfgPartNumLabel.Name" xml:space="preserve">
+    <value>mfgPartNumLabel</value>
+  </data>
+  <data name="&gt;&gt;mfgPartNumLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mfgPartNumLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mfgPartNumLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="salesOrT.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="salesOrT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 429</value>
+  </data>
+  <data name="salesOrT.MaxLength" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="salesOrT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 26</value>
+  </data>
+  <data name="salesOrT.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;salesOrT.Name" xml:space="preserve">
+    <value>salesOrT</value>
+  </data>
+  <data name="&gt;&gt;salesOrT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;salesOrT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;salesOrT.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="salesONum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="salesONum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="salesONum.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="salesONum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 432</value>
+  </data>
+  <data name="salesONum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 21</value>
+  </data>
+  <data name="salesONum.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="salesONum.Text" xml:space="preserve">
+    <value>SO#</value>
+  </data>
+  <data name="&gt;&gt;salesONum.Name" xml:space="preserve">
+    <value>salesONum</value>
+  </data>
+  <data name="&gt;&gt;salesONum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;salesONum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;salesONum.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="companyT.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="companyT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 397</value>
+  </data>
+  <data name="companyT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 26</value>
+  </data>
+  <data name="companyT.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;companyT.Name" xml:space="preserve">
+    <value>companyT</value>
+  </data>
+  <data name="&gt;&gt;companyT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;companyT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;companyT.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="customerL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="customerL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="customerL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="customerL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 400</value>
+  </data>
+  <data name="customerL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 21</value>
+  </data>
+  <data name="customerL.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="customerL.Text" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="&gt;&gt;customerL.Name" xml:space="preserve">
+    <value>customerL</value>
+  </data>
+  <data name="&gt;&gt;customerL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;customerL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;customerL.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="engineerText.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="engineerText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt</value>
+  </data>
+  <data name="engineerText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 461</value>
+  </data>
+  <data name="engineerText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 29</value>
+  </data>
+  <data name="engineerText.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;engineerText.Name" xml:space="preserve">
+    <value>engineerText</value>
+  </data>
+  <data name="&gt;&gt;engineerText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;engineerText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;engineerText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>391, 606</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
+        AAD/////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////h5ur/z87O//z59f/////////////////////////////////S2fj/rar5//Lo
+        +///////////////////////////////////////zNP8/7ay/v+urtD/q6un/6ysrP+srKz/rKys/6ys
+        rP+srKz/q6us/66mof///////////5+tu/9kYWH/9evc/////////////////////////////////0BT
+        u/8AAO//0bLy//////////////////////////////////////8UHe//EAb6/wIAYv8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA////////////pbPA/25ra//37d//////////////////////////
+        ///v/P3/P0SW/woC9P/VuPP/////////////////////////////////1+z//w0C6v8kEvv/WGJ0/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8GAAD///////////+ls8D/bmtr//ft3///////////////
+        /////////////7rGyf9GSpv/CgL0/9W48/////////////////////////////////+El/j/Dwbr/2lH
+        /f9cenn/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wMAAP///////////6WzwP9ua2v/9+3f////
+        ////////////////////////hZCS/0tQof8KAvT/1bjz/////////////////////////////////yUw
+        8P8PB+v/ya7//1FteP8AAAD///HX////////////////////////////////////////////pbPA/25r
+        a//37d///////////////////////+z5//94d23/TFKl/woC9P/VuPP/////////////////////////
+        ///p/f//DQTr/wUA6///////SWV3/wAAAP/x2sL/////////////////////////////////////////
+        //+ls8D/bmtr//ft3///////////////////////tcLQ/317b/9NUqT/CQL0/9W48///////////////
+        /////////////5Km+v8OBev/UDHs//////9HYHf/AAAA//Hawv//////////////////////////////
+        /////////////6WzwP9ua2v/9+3f//////////////////////+CjZv/fX1x/3Nzwf8GAPH/1bjz////
+        ////////////////////////NUjy/w8H6/+eg/P//////0dgd/8AAAD/8drC////////////////////
+        ////////////////////////pbPA/25ra//37d//////////////////7vn//3Bwc/+Lg3D/mKH3/wIA
+        7P/VuPP///////////////////////D///8OCOz/CADq///r+///////R2B3/wAAAP/x2sL/////////
+        //////////////////////////////////+ls8D/bmtr//ft3/////////////////+6x9X/cHBw/8Cx
+        mP+Rov//AgDr/9W48///////////////////////m7D6/w4E6/9EKOz///////////9HYHf/AAAA//Ha
+        wv///////////////////////////////////////////6WzwP9ua2v/9+3f/////////////////4SQ
+        nv9ub3D/9ufO/4yc+P8CAOv/1bjz//////////////////////83R/L/CgLr/7ec9f///////////0dg
+        d/8AAAD/8drC////////////////////////////////////////////pbPA/25ra//37d//////////
+        ///x/P//cHF2/3x1b///////iJf0/wIA6//VuPP/////////////////2ez+/woD6/8hCur////+////
+        ////////R2B3/wAAAP/x2sL///////////////////////////////////////////+ls8D/bmtr//ft
+        3////////////73L2P9wcG//rqCU//////+IlvL/AgDr/+LE9P////////////////88RvH/CQHq/7OU
+        9P////////////////9HYHf/AAAA//Hawv///////////////////////////////////////////6Wz
+        wP9ua2v/9+3f////////////iJSi/29wcP/j1sj//////4iW8v8PBuv/XU/v/21p8/9wafP/ODrv/xMK
+        6/9OOO3////+/////////////////0dgd/8AAAD/8drC////////////////////////////////////
+        ////////pbPA/25ra//37d////////X///9vc3f/enJu/////P//////iJby/xcM7P8cFez/GhHs/xoR
+        7P8fFuz/JBzt/xwV7P8TCev/ybL3////////////R2B3/wAAAP/x2sL/////////////////////////
+        //////////////////+ls8D/bmtr//ft3///////v8zZ/3Bwb/+snpL///////////+IlvL/Fwzs/xwV
+        7P8aEez/GhHs/xoR7P8aEez/HhXs/yAa7P8FAOr/8eD6//////9HYHf/AAAA//Hawv//////////////
+        /////////////////////////////6WzwP9ua2v/9+3f//////+Ml6X/b3Bw/+DTxf///////////4iW
+        8v8PBuv/XU7v/21p8/9qZfL/amXy/25o8/9ESPH/EATq/xkU7P9mR+7//////0dgd/8AAAD/8drC////
+        ////////////////////////////////////////pbPA/25ra//57uD/+f///29yeP95cm7////7////
+        ////////iJby/wIA6//ixPT///////////////////////////+TqPr/Egfr/wkA6v//////SGR3/wAA
+        AP/x2sL///////////////////////////////////////////+ls8D/bmtr//7z5P/G1OP/cHBv/6ea
+        jv////////////////+IlvL/AgDr/9W48/////////////////////////////////8uOfH/CgLr/+rO
+        //9Oanj/AAAA//Hawv///////////////////////////////////////////6WzwP9ua2v///nq/5Ge
+        rf9vcHD/3dDC/////////////////4iW8v8CAOv/1bjz/////////////////////////////////3+Q
+        +P8HAOr/xaf//1FueP8AAAD/8drC////////////////////////////////////////////pbPA/3Bs
+        bP/08ev/cnd+/3Zyb/////b/////////////////iJby/wIA6//VuPP/////////////////////////
+        ////////qb77/wUA6v+wk///U3B4/wAAAP/x2sL/////////////////////////////////////////
+        //+ls8D/dXFw/8DDxP9yc3P/o5aK//////////////////////+IlvL/AgDr/9W48///////////////
+        //////////////////+yxvv/BQDq/6WL//9UcHj/AAAA//Hawv//////////////////////////////
+        /////////////6WzwP96dnX/iYqK/3Fzdf/czsD//////////////////////4iW8v8CAOv/1bjz////
+        /////////////////////////////5Wq+v8GAOr/tpf//1NveP8AAAD/8drC////////////////////
+        ////////////////////////prPA/3l4dv98fX3/dXFx///88f//////////////////////iJby/wIA
+        6//VuPP/////////////////////////////////XW/1/wkA6v/Os///UGx4/wAAAP/x2sL/////////
+        //////////////////////////////////+ms8D/eXh2/3l7fP+hlIf/////////////////////////
+        //+IlvL/AgDr/9y+8/////////////////////////////H///8NCuz/CQPr///t//9LZ3j/AAAA//Ha
+        wv///////////////////////////////////////////6azwP95eHb/c3V3/9fJu///////////////
+        /////////////4iW8v8JAOv/oYrx/8PD+v+/vPn/v7z5/8G++f+ttPn/IR3t/x0V7P8dA+r//////0dh
+        d/8AAAD/8drC////////////////////////////////////////////prPA/3h3dv92c3L///zx////
+        ////////////////////////iJby/xcM7P8WD+z/EQnr/xEJ6/8RCev/EQnr/xQL6/8hGOz/Ew7s/4pr
+        8f//////R2B3/wAAAP/x2sL///////////////////////////////////////////+ls7//c3Nz/5yO
+        g/////////////////////////////////+HlvL/FQvs/yIa7P8iGuz/Ihrs/yIa7P8iGuz/Ihrs/xYQ
+        7P8ZBer////9//////9GX3b/AAAA//HZwf///////////////////////////////////////////6Gv
+        vP9oaGj/0sW3/////////////////////////////////4GQ8f8KAOv/Fg7r/xYO6/8WDuv/Fg7r/xYO
+        6/8NBuv/aFfx//bp/P///////////z1Xb/8AAAD/7tW9////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Part Information</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PartInfoDialog</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

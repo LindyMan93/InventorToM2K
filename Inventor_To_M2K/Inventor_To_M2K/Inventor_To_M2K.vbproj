@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <ProjectGuid>{E3133B87-5830-4ECA-A611-BE8CABD0D3EF}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Inventor_To_M2K</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="Autodesk.Inventor.Interop, Version=23.0.0.0, Culture=neutral, PublicKeyToken=d84147f8b4276564, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Inventor 2019\Bin\Public Assemblies\Autodesk.Inventor.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllInfoForm.Designer.vb">
+      <DependentUpon>AllInfoForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AllInfoForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllInOne.Designer.vb">
+      <DependentUpon>AllInOne.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AllInOne.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AsmBOMDialog.Designer.vb">
+      <DependentUpon>AsmBOMDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AsmBOMDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bDayForm.Designer.vb">
+      <DependentUpon>bDayForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bDayForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckAllDialog.Designer.vb">
+      <DependentUpon>CheckAllDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CheckAllDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CloseConveyorForm.Designer.vb">
+      <DependentUpon>CloseConveyorForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CloseConveyorForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CloseConveyorMod.vb" />
+    <Compile Include="CreateDXF.vb" />
+    <Compile Include="ERPpane.Designer.vb">
+      <DependentUpon>ERPpane.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ERPpane.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetAllInfoForm.Designer.vb">
+      <DependentUpon>GetAllInfoForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GetAllInfoForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hardInsert.Designer.vb">
+      <DependentUpon>hardInsert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hardInsert.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartMaterialDialog.Designer.vb">
+      <DependentUpon>PartMaterialDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PartMaterialDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickNotes.Designer.vb">
+      <DependentUpon>QuickNotes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QuickNotes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="routDialog.Designer.vb">
+      <DependentUpon>routDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="routDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="helpBox.Designer.vb">
+      <DependentUpon>helpBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="helpBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="globals.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PartInfoDialog.Designer.vb">
+      <DependentUpon>PartInfoDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PartInfoDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="saveForm.Designer.vb">
+      <DependentUpon>saveForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="saveForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sqlServ.vb" />
+    <Compile Include="StandardAddInServer.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AllInfoForm.resx">
+      <DependentUpon>AllInfoForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllInOne.resx">
+      <DependentUpon>AllInOne.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AsmBOMDialog.resx">
+      <DependentUpon>AsmBOMDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bDayForm.resx">
+      <DependentUpon>bDayForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckAllDialog.resx">
+      <DependentUpon>CheckAllDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CloseConveyorForm.resx">
+      <DependentUpon>CloseConveyorForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ERPpane.resx">
+      <DependentUpon>ERPpane.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetAllInfoForm.resx">
+      <DependentUpon>GetAllInfoForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hardInsert.resx">
+      <DependentUpon>hardInsert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartMaterialDialog.resx">
+      <DependentUpon>PartMaterialDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickNotes.resx">
+      <DependentUpon>QuickNotes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="routDialog.resx">
+      <DependentUpon>routDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="helpBox.resx">
+      <DependentUpon>helpBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartInfoDialog.resx">
+      <DependentUpon>PartInfoDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="saveForm.resx">
+      <DependentUpon>saveForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\import_ipt_32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="InvToM2Kdia.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\import_ipt_64.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\import_ipt_16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\import_BOM_16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\import_BOM_32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\import_BOM_64.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\import_Rout_16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\import_Rout_32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\import_Rout_64.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\save_16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\save_32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\NRL_Logo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\NRL.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\NRL2015.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\check_16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\check_32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\insert_Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\insert_Icon_16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\insert_Icon_32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\sprocket-white.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\allInfo_Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\sNRL.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\sNRL.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\routerIcon_16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\routerIcon_32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Team Web\Installation Guide %28Updated%29 SITE.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Red_Left_Arrow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Green_Right_Arrow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\newNRLicon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

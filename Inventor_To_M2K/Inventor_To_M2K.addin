@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+     <!-- Type attribute is same as Type registry key (Standard, Translator, Plugin (Server only) -->
+     <Addin Type="Standard">
+
+     <ClassId>{f04fd474-ff28-4163-8f5d-6f62ccccc9d2}</ClassId>
+     <ClientId>{f04fd474-ff28-4163-8f5d-6f62ccccc9d2}</ClientId>
+
+     <!-- Both of the following fields should be translated. NO OTHER FIELDS SHOULD BE TRANSLATED! -->
+     <DisplayName>Inventor To M2K</DisplayName>
+     <Description>Interface for Manage 2000 in Autodesk Inventor. Also includes actions for increased work flow.</Description>
+
+     <!-- Assumes that CustomCommand.dll is underneath Inventor\bin -->
+     <Assembly>Inventor_To_M2K.dll</Assembly>
+
+     <SupportedSoftwareVersionGreaterThan>17..</SupportedSoftwareVersionGreaterThan>
+	 <Version>1.1</Version>
+	 <LoadBehavior>1</LoadBehavior>
+     <LoadOnStartUp>1</LoadOnStartUp>
+     <Hidden>0</Hidden>
+     </Addin>
